@@ -1,0 +1,18 @@
+BR200 Release History
+
+1.0.1
+- Added Template scene (contains minimum objects to run the game, can be used for duplication and adding custom gameplay).
+- Increased input buffer size for correct smoothing on very high refresh rate.
+- Fixed input smoothing algorithm.
+- Default look responsivity on AgentBase set to 20ms (was 25ms).
+- Changed managed code stripping level to Minimal, some types explicitly preserved from stripping (fixed incorrect Fusion execution order in builds).
+- Added tools for easier debug input => camera chain over time.
+- Fixed propagation of Elevator position delta to KCC.
+- Fixed ElevatorConnector initialization.
+- Fixed SceneContext being correctly assigned to scene objects before Spawned().
+- Fixed proxy animations while standing still on elevator.
+- Added elevators to Game scene.
+- Updated Fusion SDK to 1.1.2-579.
+
+1.0
+- Initial release.
